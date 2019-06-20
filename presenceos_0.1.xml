@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- remote servers to query -->
+  <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
+  <remote name="github" fetch="https://github.com/" />
+
+  <!-- defaults -->
+  <default remote="yocto" sync-j="4" revision="master"/>
+
+  <!-- Yocto/OpenEmbedded things. --> 
+  <project name="poky" path="poky" remote="yocto" upstream="thud" />
+  <project name="openembedded/meta-openembedded" path="meta-openembedded" remote="github" upstream="thud" />
+
+  <!-- RaspberryPi layer -->
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" upstream="thud"/>
+
+  <!-- PresenceOS layer -->
+  <project name="SCVready/meta-presence" path="meta-presence" remote="github" upstream="thud"/>
+
+</manifest>
