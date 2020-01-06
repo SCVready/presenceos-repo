@@ -10,12 +10,12 @@
 
   <!-- Yocto/OpenEmbedded things. --> 
   <project name="poky" path="poky" remote="yocto" revision="thud" />
-  <project name="openembedded/meta-openembedded" path="poky/meta-openembedded" remote="github" revision="thud" />
+  <project name="openembedded/meta-openembedded" path="meta-openembedded" remote="github" revision="thud" />
 
   <!-- RaspberryPi layer -->
-  <project name="meta-raspberrypi" path="poky/meta-raspberrypi" remote="yocto" revision="thud"/>
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="thud"/>
 
   <!-- PresenceOS layer -->
-  <project name="SCVready/meta-presence" path="poky/meta-presence" remote="github" revision="thud"/>
+  <project name="SCVready/meta-presence" path="meta-presence" remote="github" revision="thud"/>
 
 </manifest>
