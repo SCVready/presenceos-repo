@@ -9,11 +9,11 @@
   <default remote="yocto" sync-j="4" revision="master"/>
 
   <!-- Yocto/OpenEmbedded things. --> 
-  <project name="poky" path="poky" remote="yocto" revision="thud" />
-  <project name="openembedded/meta-openembedded" path="meta-openembedded" remote="github" revision="thud" />
+  <project name="poky" path="poky" remote="yocto" revision="2faacaf8f4bf5afff9dab8d9164a83788465224f" />
+  <project name="openembedded/meta-openembedded" path="meta-openembedded" remote="github" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93" />
 
   <!-- RaspberryPi layer -->
-  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="thud"/>
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="4e5be97d75668804694412f9b86e9291edb38b9d"/>
 
   <!-- PresenceOS layer -->
   <project name="SCVready/meta-presence" path="meta-presence" remote="github" revision="refs/tags/release_v1.0"/>
