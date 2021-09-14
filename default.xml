@@ -16,6 +16,6 @@
   <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="thud"/>
 
   <!-- PresenceOS layer -->
-  <project name="SCVready/meta-presence" path="meta-presence" remote="github" revision="thud"/>
+  <project name="SCVready/meta-presence" path="meta-presence" remote="github" revision="refs/tags/release_v1.0"/>
 
 </manifest>
